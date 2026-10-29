@@ -1,4 +1,7 @@
-const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:3000/api";
+const envApi = import.meta.env.VITE_API_URL || "http://localhost:3000/api";
+const API_BASE = envApi.endsWith('/api') || envApi.endsWith('/api/')
+  ? envApi.replace(/\/+$/, '')
+  : `${envApi.replace(/\/+$/, '')}/api`;
 
 function getAuthHeader() {
   const token = localStorage.getItem("skillswap_token");
