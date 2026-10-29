@@ -1,0 +1,91 @@
+{
+  "users": [
+    {
+      "id": "usr_1793293091764",
+      "rating": 5,
+      "reviewCount": 0,
+      "completedSwaps": 0,
+      "videoAvailable": true,
+      "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLipRz3W2oMH1Q_I6mp1ubDpZ-pG_6pdnxUhnjLdW8_26VkSgE=s96-c",
+      "skillsOffering": [],
+      "skillsLearning": [],
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [
+            "05:00 PM - 06:00 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [
+            "06:00 PM - 07:00 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "slots": [
+            "11:00 AM - 12:00 PM"
+          ]
+        }
+      ],
+      "badges": [
+        "Community Member"
+      ],
+      "createdAt": "2026-10-29T16:58:11.764Z",
+      "firstName": "Dheeraj",
+      "lastName": "User",
+      "email": "n.dheeraj2007@gmail.com",
+      "headline": "Skill Swap Member (via Google)",
+      "location": "Remote",
+      "googleAuth": true,
+      "googleId": "107719403902884741038",
+      "agreeTerms": true
+    },
+    {
+      "id": "usr_1793292527237",
+      "rating": 5,
+      "reviewCount": 0,
+      "completedSwaps": 0,
+      "videoAvailable": true,
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Dheeraj%20Kumar",
+      "skillsOffering": [],
+      "skillsLearning": [],
+      "availability": [
+        {
+          "day": "Monday",
+          "slots": [
+            "05:00 PM - 06:00 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [
+            "06:00 PM - 07:00 PM"
+          ]
+        },
+        {
+          "day": "Saturday",
+          "slots": [
+            "11:00 AM - 12:00 PM"
+          ]
+        }
+      ],
+      "badges": [
+        "Community Member"
+      ],
+      "createdAt": "2026-10-29T16:48:47.237Z",
+      "firstName": "Dheeraj",
+      "lastName": "Kumar",
+      "email": "dheerajkumar12548@gmail.com",
+      "headline": "Skill Swap Member (via Google)",
+      "location": "Remote",
+      "googleAuth": true,
+      "googleId": "google_1793292527237",
+      "agreeTerms": true
+    }
+  ],
+  "requests": [],
+  "reviews": [],
+  "messages": []
+}
