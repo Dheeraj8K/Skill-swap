@@ -45,7 +45,7 @@ function ReviewModal({ swapRequest, onClose, onSuccess }) {
         <div className="modal-header">
           <div>
             <h2>Review Swap Session with {targetName}</h2>
-            <p className="modal-subtitle">Share feedback to help the SkillSwap community grow</p>
+            <p className="modal-subtitle">Share feedback to help the LearnLoop community grow</p>
           </div>
           <button className="modal-close-btn" onClick={onClose}>
             <X size={20} />

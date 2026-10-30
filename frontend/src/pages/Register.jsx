@@ -97,7 +97,7 @@ function Register() {
         email: formData.email,
         password: formData.password,
         confirmPassword: formData.confirmPassword,
-        headline: formData.headline || 'Skill Swap Member',
+        headline: formData.headline || 'LearnLoop Member',
         location: formData.location || 'Remote',
         skillsOffering: formData.skillOfferingName ? [
           {
@@ -133,7 +133,7 @@ function Register() {
             <div className="auth-badge">
               <Sparkles size={14} /> Free Membership
             </div>
-            <h1>Create Your SkillSwap Account</h1>
+            <h1>Create Your LearnLoop Account</h1>
             <p>Join peers exchanging skills, booking video calls, and growing together</p>
           </div>
 

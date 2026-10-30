@@ -115,7 +115,7 @@ function Requests() {
 
         <div className="requests-header-box">
           <div>
-            <h1>Skill Swap Requests & Sessions</h1>
+            <h1>LearnLoop Requests & Sessions</h1>
             <p>Manage your incoming and outgoing peer learning proposals</p>
           </div>
 

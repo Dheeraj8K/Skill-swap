@@ -88,7 +88,7 @@ function Login() {
             <div className="auth-badge">
               <Sparkles size={14} /> Welcome Back
             </div>
-            <h1>Sign In to SkillSwap</h1>
+            <h1>Sign In to LearnLoop</h1>
             <p>Exchange knowledge, grow your network, and master new skills</p>
           </div>
 
@@ -175,7 +175,7 @@ function Login() {
 
           <div className="auth-footer">
             <p>
-              New to SkillSwap?{' '}
+              New to LearnLoop?{' '}
               <Link to="/register" className="auth-footer-link">
                 Create a free account <ArrowRight size={13} />
               </Link>

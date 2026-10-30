@@ -140,7 +140,7 @@ function UserProfileModal({ user, reviews = [], onClose, onRequestSwap, onStartC
             <MessageSquare size={16} /> Send Direct Message
           </button>
           <button className="btn-swap-action" onClick={() => onRequestSwap(user)}>
-            Propose Skill Swap <ArrowRight size={16} />
+            Propose LearnLoop Swap <ArrowRight size={16} />
           </button>
         </div>
       </div>

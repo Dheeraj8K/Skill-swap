@@ -50,7 +50,7 @@ router.post('/google', async (req, res) => {
         lastName,
         email,
         avatar,
-        headline: 'Skill Swap Member (via Google)',
+        headline: 'LearnLoop Member (via Google)',
         location: 'Remote',
         skillsOffering: [],
         skillsLearning: [],

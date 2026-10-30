@@ -15,7 +15,7 @@ function SendRequestModal({ targetUser, onClose, onSuccess }) {
   const [duration, setDuration] = useState('45 mins');
   const [scheduledDate, setScheduledDate] = useState('');
   const [message, setMessage] = useState(
-    `Hi ${targetUser.firstName}, I love your work with ${targetUser?.skillsOffering?.[0]?.name || 'your field'}. Would you be open to a skill swap session?`
+    `Hi ${targetUser.firstName}, I love your work with ${targetUser?.skillsOffering?.[0]?.name || 'your field'}. Would you be open to a learning exchange session?`
   );
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
@@ -54,7 +54,7 @@ function SendRequestModal({ targetUser, onClose, onSuccess }) {
         <div className="modal-header">
           <div className="modal-title-wrap">
             <div className="modal-badge">
-              <Sparkles size={16} /> Skill Swap Request
+              <Sparkles size={16} /> LearnLoop Swap Request
             </div>
             <h2>Propose Exchange with {targetUser.firstName}</h2>
           </div>

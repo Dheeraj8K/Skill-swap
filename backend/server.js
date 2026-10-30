@@ -59,7 +59,7 @@ app.get('/api/health', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('⚡ SkillSwap Platform Backend API is running smoothly.');
+  res.send('⚡ LearnLoop Platform Backend API is running smoothly.');
 });
 
 // 404 handler
@@ -78,5 +78,5 @@ app.use((err, req, res, next) => {
 ===================== */
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
-  console.log(`🚀 SkillSwap Backend API & WebSockets running at http://localhost:${PORT}`);
+  console.log(`🚀 LearnLoop Backend API & WebSockets running at http://localhost:${PORT}`);
 });

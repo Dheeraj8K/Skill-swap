@@ -105,7 +105,7 @@ function Home() {
           </h1>
 
           <p className="hero-subtext">
-            SkillSwap is the community barter platform where developers, designers, and creators exchange expertise 1-on-1 through live video sessions. No subscriptions, zero fees.
+            LearnLoop is the community barter platform where developers, designers, and creators exchange expertise 1-on-1 through live video sessions. No subscriptions, zero fees.
           </p>
 
           {/* Interactive Hero Search */}
@@ -181,7 +181,7 @@ function Home() {
         <div className="container">
           <div className="section-header-center">
             <span className="section-eyebrow">Seamless Process</span>
-            <h2>How SkillSwap Works</h2>
+            <h2>How LearnLoop Works</h2>
             <p>Three straightforward steps to learn from genuine practitioners.</p>
           </div>
 
@@ -203,7 +203,7 @@ function Home() {
         <div className="container">
           <div className="section-header-center">
             <span className="section-eyebrow">Engineered for Success</span>
-            <h2>Why Learn on SkillSwap?</h2>
+            <h2>Why Learn on LearnLoop?</h2>
             <p>Say goodbye to overpriced courses. Experience real-time human feedback.</p>
           </div>
 

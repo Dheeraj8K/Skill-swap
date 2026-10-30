@@ -46,7 +46,7 @@ function VideoRoom() {
   const [messages, setMessages] = useState([
     {
       id: 'init_1',
-      senderName: 'SkillSwap Bot',
+      senderName: 'LearnLoop Bot',
       message: `Welcome to your peer session for ${swapSkill}! Video and end-to-end encrypted peer audio are active.`,
       timestamp: 'Just now'
     }

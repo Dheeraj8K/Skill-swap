@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "SkillSwap Backend API with WebRTC Video Signaling & Realtime Messaging",
+  "description": "LearnLoop Backend API with WebRTC Video Signaling & Realtime Messaging",
   "license": "ISC",
   "author": "Dheeraj",
   "type": "commonjs",

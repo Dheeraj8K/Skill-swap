@@ -1,4 +1,4 @@
-# ⚡ SkillSwap — Modern Peer-to-Peer Knowledge Exchange & Video Mentorship Platform
+# ⚡ LearnLoop — Modern Peer-to-Peer Knowledge Exchange & Video Mentorship Platform
 
 A modern, production-grade full-stack web application designed for direct, reciprocal skill sharing. Instead of paying expensive course fees or subscription costs, members exchange their expertise 1-on-1: teach what you know, learn what you desire, and collaborate through built-in encrypted video rooms.
 

@@ -150,7 +150,7 @@ function Profile() {
               <div className="profile-hero-title-row">
                 <div>
                   <h1>{user?.firstName} {user?.lastName}</h1>
-                  <p className="profile-hero-headline">{user?.headline || 'Skill Swap Member'}</p>
+                  <p className="profile-hero-headline">{user?.headline || 'LearnLoop Member'}</p>
                 </div>
 
                 <div className="profile-hero-actions">

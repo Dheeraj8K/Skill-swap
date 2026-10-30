@@ -39,7 +39,7 @@ function Navbar() {
             <span className="logo-lightning">⚡</span>
           </div>
           <div className="logo-text-group">
-            <span className="brand-name">SkillSwap</span>
+            <span className="brand-name">LearnLoop</span>
             <span className="brand-tag">Peer Mentorship</span>
           </div>
         </Link>

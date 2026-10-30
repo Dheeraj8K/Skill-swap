@@ -57,7 +57,7 @@ router.post('/', authMiddleware, (req, res) => {
     });
 
     res.status(201).json({
-      message: 'Skill swap request sent successfully!',
+      message: 'LearnLoop swap request sent successfully!',
       request: newRequest
     });
   } catch (err) {

@@ -80,7 +80,7 @@ function BrowseUsers() {
 
   const handleRequestSuccess = () => {
     setTargetUserForRequest(null);
-    setToastMessage('🎉 Skill Swap Request Sent! Check your Requests tab.');
+    setToastMessage('🎉 LearnLoop Swap Request Sent! Check your Requests tab.');
     setTimeout(() => setToastMessage(''), 4000);
   };
 
@@ -105,7 +105,7 @@ function BrowseUsers() {
           <div className="browse-badge">
             <Sparkles size={15} /> Peer Learning Marketplace
           </div>
-          <h1>Find Mentors & Skill Swap Partners</h1>
+          <h1>Find Mentors & LearnLoop Partners</h1>
           <p className="browse-subtitle">
             Connect with verified peers. Learn anything by exchanging the skills you already possess.
           </p>
@@ -166,12 +166,12 @@ function BrowseUsers() {
         {loading ? (
           <div className="loading-grid-spinner">
             <div className="spinner-circle"></div>
-            <p>Finding compatible skill swap partners...</p>
+            <p>Finding compatible learning partners...</p>
           </div>
         ) : users.length === 0 ? (
           <div className="no-results-card">
             <Sparkles size={36} className="empty-sparkle" />
-            <h3>No matching skill swappers found</h3>
+            <h3>No matching learning partners found</h3>
             <p>Try searching for a different skill or clear your filters.</p>
             <button
               className="btn-clear-filters"

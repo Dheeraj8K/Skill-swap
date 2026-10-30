@@ -5,7 +5,7 @@ const AuthContext = createContext(null);
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
-  const [token, setToken] = useState(() => localStorage.getItem('skillswap_token'));
+  const [token, setToken] = useState(() => localStorage.getItem('learnloop_token'));
   const [loading, setLoading] = useState(true);
 
   // Initialize user from stored token
@@ -21,7 +21,7 @@ export function AuthProvider({ children }) {
         setUser(res.user);
       } catch (err) {
         console.warn("Session token expired or invalid:", err.message);
-        localStorage.removeItem('skillswap_token');
+        localStorage.removeItem('learnloop_token');
         setToken(null);
         setUser(null);
       } finally {
@@ -34,7 +34,7 @@ export function AuthProvider({ children }) {
 
   const login = async (email, password) => {
     const res = await api.login({ email, password });
-    localStorage.setItem('skillswap_token', res.token);
+    localStorage.setItem('learnloop_token', res.token);
     setToken(res.token);
     setUser(res.user);
     return res;
@@ -42,7 +42,7 @@ export function AuthProvider({ children }) {
 
   const register = async (userData) => {
     const res = await api.register(userData);
-    localStorage.setItem('skillswap_token', res.token);
+    localStorage.setItem('learnloop_token', res.token);
     setToken(res.token);
     setUser(res.user);
     return res;
@@ -54,14 +54,14 @@ export function AuthProvider({ children }) {
       : { profile: credentialOrProfile };
 
     const res = await api.googleAuth(payload);
-    localStorage.setItem('skillswap_token', res.token);
+    localStorage.setItem('learnloop_token', res.token);
     setToken(res.token);
     setUser(res.user);
     return res;
   };
 
   const logout = () => {
-    localStorage.removeItem('skillswap_token');
+    localStorage.removeItem('learnloop_token');
     setToken(null);
     setUser(null);
   };

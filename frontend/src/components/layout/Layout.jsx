@@ -15,7 +15,7 @@ function Layout() {
           <div className="footer-brand-col">
             <div className="footer-logo">
               <span className="logo-sparkle">⚡</span>
-              <span className="brand-title">SkillSwap</span>
+              <span className="brand-title">LearnLoop</span>
             </div>
             <p className="footer-desc">
               The premier open exchange platform for peer-to-peer knowledge sharing and live video mentorship.
@@ -44,7 +44,7 @@ function Layout() {
 
         <div className="footer-bottom-bar">
           <div className="container bottom-bar-inner">
-            <span>&copy; {new Date().getFullYear()} SkillSwap Inc. All rights reserved.</span>
+            <span>&copy; {new Date().getFullYear()} LearnLoop Inc. All rights reserved.</span>
             <span className="footer-love">
               Crafted for collaborative lifelong learners <Heart size={13} className="text-red" />
             </span>

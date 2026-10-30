@@ -4,7 +4,7 @@ const API_BASE = envApi.endsWith('/api') || envApi.endsWith('/api/')
   : `${envApi.replace(/\/+$/, '')}/api`;
 
 function getAuthHeader() {
-  const token = localStorage.getItem("skillswap_token");
+  const token = localStorage.getItem("learnloop_token");
   return token ? { Authorization: `Bearer ${token}` } : {};
 }
 

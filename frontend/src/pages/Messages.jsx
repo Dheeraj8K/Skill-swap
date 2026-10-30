@@ -96,7 +96,7 @@ function Messages() {
   const handleLaunchVideo = () => {
     if (!selectedUser) return;
     const roomId = `room_direct_${Date.now()}`;
-    navigate(`/room/${roomId}?partner=${encodeURIComponent(selectedUser.firstName + ' ' + selectedUser.lastName)}&avatar=${encodeURIComponent(selectedUser.avatar)}&skill=${encodeURIComponent(selectedUser.skillsOffering?.[0]?.name || 'Skill Swap')}`);
+    navigate(`/room/${roomId}?partner=${encodeURIComponent(selectedUser.firstName + ' ' + selectedUser.lastName)}&avatar=${encodeURIComponent(selectedUser.avatar)}&skill=${encodeURIComponent(selectedUser.skillsOffering?.[0]?.name || 'LearnLoop Swap')}`);
   };
 
   // Open User Profile Modal
@@ -173,7 +173,7 @@ function Messages() {
                         )}
                       </div>
                       <span className="convo-skill">
-                        {c.skillsOffering?.[0]?.name || c.headline || 'Skill Swapper'}
+                        {c.skillsOffering?.[0]?.name || c.headline || 'LearnLoop Member'}
                       </span>
                     </div>
 
@@ -328,7 +328,7 @@ function Messages() {
           onClose={() => setRequestModalUser(null)}
           onSuccess={() => {
             setRequestModalUser(null);
-            setToastMessage('🎉 Skill swap request sent successfully!');
+            setToastMessage('🎉 LearnLoop swap request sent successfully!');
             setTimeout(() => setToastMessage(''), 3500);
           }}
         />

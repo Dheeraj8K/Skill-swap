@@ -1,11 +1,11 @@
 @echo off
 echo ========================================================
-echo   Launching SkillSwap Platform (Backend + Frontend)
+echo   Launching LearnLoop Platform (Backend + Frontend)
 echo ========================================================
 
-start "SkillSwap Backend (Port 3000)" cmd /k "cd backend && npm start"
+start "LearnLoop Backend (Port 3000)" cmd /k "cd backend && npm start"
 timeout /t 2 /nobreak >nul
-start "SkillSwap Frontend (Port 5173)" cmd /k "cd frontend && npm run dev"
+start "LearnLoop Frontend (Port 5173)" cmd /k "cd frontend && npm run dev"
 
 echo.
 echo Both services are starting in separate windows:

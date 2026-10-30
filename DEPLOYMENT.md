@@ -1,6 +1,6 @@
-# 🚀 SkillSwap Deployment Guide
+# 🚀 LearnLoop Deployment Guide
 
-This guide explains how to deploy SkillSwap to production in a few minutes.
+This guide explains how to deploy LearnLoop to production in a few minutes.
 
 ---
 
@@ -23,7 +23,7 @@ This guide explains how to deploy SkillSwap to production in a few minutes.
    * `PORT`: `3000` (or leave default on Render/Railway)
    * `JWT_SECRET`: `your_secure_random_jwt_secret_key`
    * `MONGODB_URI`: `mongodb+srv://<user>:<password>@cluster0.mongodb.net/skill_swap?retryWrites=true&w=majority` *(optional, falls back to high-performance store if omitted)*
-5. Once deployed, copy your backend URL (e.g., `https://skillswap-api.onrender.com`).
+5. Once deployed, copy your backend URL (e.g., `https://learnloop-api.onrender.com`).
 
 ---
 
@@ -34,8 +34,8 @@ This guide explains how to deploy SkillSwap to production in a few minutes.
    * **Build Command**: `npm run build`
    * **Output Directory**: `dist`
 3. Add Environment Variables:
-   * `VITE_API_URL`: `https://skillswap-api.onrender.com/api`
-   * `VITE_SOCKET_URL`: `https://skillswap-api.onrender.com`
+   * `VITE_API_URL`: `https://learnloop-api.onrender.com/api`
+   * `VITE_SOCKET_URL`: `https://learnloop-api.onrender.com`
    * `VITE_GOOGLE_CLIENT_ID`: `292998625214-d2mu53ghrfljp210k30ce51i693o4lfq.apps.googleusercontent.com`
 4. Deploy!
 
@@ -43,11 +43,11 @@ This guide explains how to deploy SkillSwap to production in a few minutes.
 
 ## 4. Google Cloud Console for Production URL
 
-Once your frontend is deployed to your live domain (e.g., `https://skillswap.vercel.app`):
+Once your frontend is deployed to your live domain (e.g., `https://learnloop.vercel.app`):
 1. Open [Google Cloud Console - Credentials](https://console.cloud.google.com/apis/credentials).
 2. Edit your Web Client ID (`Web client 2`).
 3. Add your production domain under **Authorized JavaScript origins**:
-   * `https://skillswap.vercel.app`
+   * `https://learnloop.vercel.app`
 4. Add your production domain under **Authorized redirect URIs**:
-   * `https://skillswap.vercel.app`
+   * `https://learnloop.vercel.app`
 5. Click **Save**.
