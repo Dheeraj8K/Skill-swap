@@ -94,10 +94,6 @@ function Home() {
       {/* Hero Section */}
       <section className="hero-section">
         <div className="container">
-          <div className="hero-badge">
-            <span className="live-radar-dot"></span>
-            <span>Over 1,400+ Mentors Online & Ready for Video Swaps</span>
-          </div>
 
           <h1 className="hero-headline">
             Master Any Skill by <br />
